@@ -11,24 +11,19 @@ Special Animations:
     transform: scale(1.1);
 }
 
-Image Box Shadow on Hover:
-CSS
+### Image Box Shadow on Hover:
 
 .section-first-right img:hover,
 .section-second-left img:hover {
     box-shadow: 5px 5px 15px black;
 }
-AI-generated code. Review and use carefully. More info on FAQ.
-Button Width Expansion on Hover:
-CSS
-
+### Button Width Expansion on Hover:
 .button-container:hover button {
     cursor: pointer;
     width: calc(122% - 0px);
 }
-AI-generated code. Review and use carefully. More info on FAQ.
-Box Item Zoom on Hover:
-CSS
+
+### Box Item Zoom on Hover:
 
 .box-item1,
 .box-item2,
