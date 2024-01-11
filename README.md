@@ -2,10 +2,9 @@
 Promact Infotech Assignment 5 CSS
 
 ### Special Animation Effect
-Special Animations:
 
-#### Button Enlargement on Hover:
 ```css
+### Button Enlargement on Hover:
 .section-first-left button:hover {
     background-color: #0780e0;
     transform: scale(1.1);
