@@ -48,6 +48,11 @@ ul {
 li {
   color: rgb(158, 156, 143);
 }
+/* Image styles for proper responsiveness */
+img {
+  max-width: 100%; /* Ensure images adjust to the width of their container */
+  height: auto;    /* Maintain aspect ratio */
+}
 
 /* Description section 1 background color */
 #description_1 {
@@ -328,6 +333,15 @@ img:hover {
   .all_features {
     flex-wrap: wrap;
     width: 90vw;
+  }
+  
+  img {
+    max-width: 100%; /* Set maximum width for images in mobile view */
+  }
+
+  /* Second image button specific styles */
+  #description_2 img {
+    max-width: 80%;  /* Adjust the maximum width as needed */
   }
 
   .feature {
