@@ -203,11 +203,11 @@ li a {
     transition: all 1s;
 }
 
-.box-iteam1,
-.box-iteam2,
-.box-iteam3,
-.box-iteam4,
-.box-iteam5 {
+.box-item1,
+.box-item2,
+.box-item3,
+.box-item4,
+.box-item5 {
     border: 1px solid #ff4cf6; 
     padding: 20px;
     background-color: white;
@@ -217,19 +217,19 @@ li a {
     width: 20px;
 }
 
-.box-iteam2 {
+.box-item2 {
     border: 1px solid #00bc6e; 
 }
 
-.box-iteam3 {
+.box-item3 {
     border: 1px solid #ffc31b; 
 }
 
-.box-iteam4 {
+.box-item4 {
     border: 1px solid #4c8aff;
 }
 
-.box-iteam5 {
+.box-item5 {
     border: 1px solid #515151; 
 }
 
@@ -290,34 +290,34 @@ nav ul li a:hover {
 .section-second-left img:hover {
     box-shadow: 5px 5px 15px black;
 }
-.section-feature .box1:hover {
+.section-feature .music:hover {
     background-color: #ff4cf6; 
 }
-.section-feature .box2:hover {
+.section-feature .download:hover {
     background-color: #019558; 
 }
-.section-feature .box3:hover {
+.section-feature .picture:hover {
     background-color: #ffc31b; 
 }
 
-.section-feature .box4:hover {
+.section-feature .connect:hover {
     background-color: #4c8aff; 
 }
-.section-feature .box5:hover {
+.section-feature .location:hover {
     background-color: #515151; 
 }
-.box-iteam1,
-.box-iteam2,
-.box-iteam3,
-.box-iteam4,
-.box-iteam5 {
+.box-item1,
+.box-item2,
+.box-item3,
+.box-item4,
+.box-item5 {
     transition: transform 1s ease-in-out;
 }
-.box1:hover .box-iteam1,
-.box2:hover .box-iteam2,
-.box3:hover .box-iteam3,
-.box4:hover .box-iteam4,
-.box5:hover .box-iteam5 {
+.music:hover .box-item1,
+.download:hover .box-item2,
+.picture:hover .box-item3,
+.connect:hover .box-item4,
+.location:hover .box-item5 {
     /* Zoom effect */
     transform: scale(1.2); 
     transition: transform 1s ease-in-out;
@@ -336,11 +336,11 @@ nav ul li a:hover {
         transform: scale(1);
     }
 }
-.box1:hover .box-iteam1,
-.box2:hover .box-iteam2,
-.box3:hover .box-iteam3,
-.box4:hover .box-iteam4,
-.box5:hover .box-iteam5 {
+.music:hover.box-item1,
+.download:hover .box-item2,
+.picture:hover .box-item3,
+.connect:hover .box-item4,
+.location:hover .box-item5 {
     animation: zoomAnimation 1s ease-in-out;
 }
 footer a:hover {
