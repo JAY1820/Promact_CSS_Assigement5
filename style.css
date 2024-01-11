@@ -1,0 +1,281 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      nav {
+        background-color: rgb(33, 37, 41);
+        color: rgb(244, 255, 251);
+      }
+      
+      section {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+      }
+      
+      a {
+        text-decoration: none;
+      }
+      
+      h2 {
+        font-weight: lighter;
+      }
+      
+      p,
+      li {
+        font-size: 13px;
+      }
+      
+      footer {
+        background-color: rgb(63, 63, 63);
+        color: rgb(210, 204, 200);
+      }
+      
+      ul {
+        list-style-type: none;
+      }
+      
+      li {
+        color: rgb(158, 156, 143);
+      }
+      
+      #description_1 {
+        background-color: rgb(221, 240, 255);
+      }
+      #description_2 {
+        background-color: rgb(104, 237, 182);
+      }
+      
+      .padding_left_right {
+        padding-left: 7vw;
+        padding-right: 10vw;
+      }
+      
+      .navbar {
+        display: flex;
+        gap: 1vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+      }
+      
+      .nav_links {
+        padding: 1vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+      }
+      
+      .nav_links:hover {
+        color: rgb(33, 37, 41);
+        background-color: rgb(244, 255, 251);
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 3px;
+      }
+      
+      .flexbox {
+        display: flex;
+        gap: 8vh;
+      }
+      
+      .blue_button {
+        background-color: rgb(16, 149, 255);
+        color: white;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+      }
+      
+      .green_button {
+        background-color: rgb(0, 188, 110);
+        color: white;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+      }
+      
+      #features {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .all_features {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 75vw;
+      }
+      
+      .feature {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(233, 233, 233);
+        padding: 10px;
+        width: 15vw;
+        height: 17vw;
+        border-radius: 4px;
+      }
+      
+      .feature p {
+        text-align: center;
+      }
+      
+      .feature_icon {
+        border-radius: 100px;
+        padding: 15px;
+        height: 10px;
+        width: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .music_icon {
+        border: 1px solid rgb(255, 108, 247);
+        color: rgb(255, 108, 247);
+      }
+      
+      .download_icon {
+        border: 1px solid rgb(15, 165, 131);
+        color: rgb(15, 165, 131);
+      }
+      
+      .location_icon {
+        border: 1px solid rgb(255, 195, 27);
+        color: rgb(255, 195, 27);
+      }
+      
+      .connect_icon {
+        border: 1px solid rgb(95, 139, 255);
+        color: rgb(95, 139, 255);
+      }
+      
+      .picture_icon {
+        border: 1px solid rgb(81, 81, 81);
+        color: rgb(81, 81, 81);
+      }
+      
+      .footer_part {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 15vw;
+        padding: 30px;
+      }
+      
+      .footer_items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+      }
+      
+      .footer_items li:hover {
+        color: rgb(210, 204, 200);
+        cursor: pointer;
+      }
+
+            /* Add animation for navbar links */
+      .nav_links:hover {
+        color: rgb(33, 37, 41);
+        background-color: rgb(244, 255, 251);
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 3px;
+        transition: color 0.3s ease, background-color 0.3s ease;
+      }
+
+      /* Add animation for feature icons */
+      .feature_icon:hover {
+        transform: scale(1.5);
+        transition: transform 0.3s ease;
+      }
+
+      /* Add animation for footer items */
+      .footer_items li:hover {
+        color: rgb(210, 204, 200);
+        cursor: pointer;
+        transition: color 0.3s ease;
+      }
+
+
+
+            /* Tablet responsiveness */
+      @media screen and (max-width: 1024px) {
+        .padding_left_right {
+          padding-left: 5vw;
+          padding-right: 5vw;
+        }
+
+        .flexbox {
+          flex-direction: column;
+          gap: 5vh;
+        }
+
+        .all_features {
+          flex-wrap: wrap;
+          width: 90vw;
+        }
+
+        .feature {
+          width: 40vw;
+          height: auto;
+          margin-bottom: 20px;
+        }
+      }
+
+      /* Mobile responsiveness */
+      @media screen and (max-width: 600px) {
+        .padding_left_right {
+          padding-left: 5vw;
+          padding-right: 5vw;
+        }
+
+        .navbar {
+          flex-direction: column;
+          gap: 1vh;
+        }
+
+        .nav_links {
+          padding: 1vh;
+          padding-top: 2vh;
+          padding-bottom: 2vh;
+          text-align: center;
+        }
+
+        .flexbox {
+          flex-direction: column;
+          gap: 5vh;
+        }
+
+        .all_features {
+          flex-wrap: wrap;
+          width: 90vw;
+        }
+
+        .feature {
+          width: 80vw;
+          height: auto;
+          margin-bottom: 20px;
+        }
+
+        .footer_part {
+          flex-direction: column;
+          align-items: center;
+          padding: 20px; /* Adjust padding for better spacing */
+        }
+      
+        .footer_items {
+          text-align: center; /* Center align items */
+        }
+      }
